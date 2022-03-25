@@ -10,6 +10,7 @@ class HomePageView extends StatefulWidget {
 class _HomePageViewState extends State<HomePageView> {
   @override
   void initState() {
+    print("hello world");
     super.initState();
   }
 
