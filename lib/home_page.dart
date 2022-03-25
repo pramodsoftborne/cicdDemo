@@ -20,12 +20,24 @@ class _HomePageViewState extends State<HomePageView> {
           ),
         ),
       ),
-      body: const Center(
-        child: Text(
-          "CI CD Template",
-          style: TextStyle(
-            fontSize: 16,
-          ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: const [
+            Text(
+              "CI CD Template",
+              style: TextStyle(
+                fontSize: 16,
+              ),
+            ),
+            Text(
+              "CI CD body",
+              style: TextStyle(
+                fontSize: 14,
+              ),
+            ),
+          ],
         ),
       ),
     );
